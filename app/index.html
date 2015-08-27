@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head lang="fr">
+    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css">
+    <link href="/css/main.css" rel="stylesheet" />
+    <script src="/components/angular/angular.js"></script>
+  </head>
+  <body lang="fr" ng-app="myApp">
+    <div class="header">
+      <div class="red">
+        <h1 class="red">Une petite application de merde</h1>
+      </div>
+
+      <div ng-controller="MainController">
+          <p>
+            {{title}}
+          </p>
+          <div>
+              <input class="name" type="text" name="name" placeholder="Entrez le chiffre à calculer" ng-model="Chiffre">
+          </div>
+
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Calculer</button>
+          </div>
+
+          <p>
+            {{title}}
+          </p>
+
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "base-jm",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thyb/jm-test-app.git"
+  },
+  "author": "Thibaud Arnault <thyb@oauth.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thyb/jm-test-app/issues"
+  },
+  "homepage": "https://github.com/thyb/jm-test-app"
+}
